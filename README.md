@@ -7,8 +7,7 @@
   - 어플리케이션은 무조건 하나이상의 액티비티가 존재해야함
 
 * Activity LifeCycle
-
-  * ![ActivityLifeCycle](/Users/txxbro/workspace/AndroidTheory/image/ActivityLifeCycle.png)
+  * <img src="https://github.com/TaeHyungK/AndroidTheory/blob/master/image/ActivityLifeCycle.png" alt="f" style="zoom:50%;" />
   * onCreate(): 액티비티가 생성될 때 호출되며 사용자 인터페이스 초기화에 사용됨
   * onStart(): 액티비티가 사용자에게 보여지기 바로 직전에 호출됨
   * onResume(): 액티비티가 사용자와 상호작용하기 바로 전에 호출됨
@@ -55,7 +54,7 @@
   - 액티비티처럼 레이아웃, 동작 처리, 생명주기를 가지는 독립적인 모듈
 
 - Fragment LifeCycle
-  - ![FragmentLifeCycle](/Users/txxbro/workspace/AndroidTheory/image/FragmentLifeCycle.png)
+  - <img src="https://github.com/TaeHyungK/AndroidTheory/blob/master/image/FragmentLifeCycle.png" alt="f" style="zoom:50%;" />
   - onAttach(): 프래그먼트가 액티비티에 붙을 때 호출됨 (완벽하게 생성된 상태 아님)
   - onCreate(): 프래그먼트가 액티비티에 호출을 받아 생성되는 시점. 액티비티의 onCreate()에선 View나 UI관련 작업을 할 수 있으나, 프래그먼트의 onCreate()에서는 할 수 없음
   - onCreateView(): 프래그먼트에 속한 각종 View나 ViewGroup에 대한 UI 바인딩 작업이 가능한 시점(Layout을 inflater하여 View 작업을 함)
